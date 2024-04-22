@@ -22,7 +22,9 @@
 -Fetch data for trailer video
 -Update store with Trailer Video data
 -Embedded youtube video, made it autoplay and mute
-
+-build secondary component
+-movie list,movie card 
+-custom hooks for populating the secondary container with movie lists fetched from tmdb APIs
 
 
 
