@@ -12,6 +12,18 @@
 -create sign up user account
 -Implemented sign-in user api
 -created redux store with userSlice
+-Unsubscribed to onAuthStateChanged callback
+-Registered  TMDB API & created an app & got access token
+-Get data from tmdb nowplaying movies list API
+-Custom Hook for now playing movies
+-Create movieSlice
+-Update store with movies data
+-created mainContainer and SecondaryContainer for browse page
+-Fetch data for trailer video
+-Update store with Trailer Video data
+-Embedded youtube video, made it autoplay and mute
+
+
 
 
 #Features
