@@ -25,6 +25,9 @@
 -build secondary component
 -movie list,movie card 
 -custom hooks for populating the secondary container with movie lists fetched from tmdb APIs
+-GPT searchbar
+-GPT searchpage
+-Multi-language feature 
 
 
 
