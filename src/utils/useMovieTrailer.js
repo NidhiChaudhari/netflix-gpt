@@ -7,6 +7,7 @@ const useMovieTrailer = (movieId) => {
     
     const dispatch=useDispatch();
     //fetch trailer
+    const trailerVideo=useSelector(store=>store.movies.trailerVideo);
   const getMovieVideos=async ()=>{
     const data=await fetch("https://api.themoviedb.org/3/movie/"+movieId+"/videos?language=en-US",options);
     const json=await data.json();
@@ -18,7 +19,7 @@ const useMovieTrailer = (movieId) => {
     dispatch(addTrailerVideo(trailer));
   }
   useEffect(()=>{
-  getMovieVideos();
+    !trailerVideo && getMovieVideos();
   },[])
 }
 
