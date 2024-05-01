@@ -17,6 +17,6 @@ export const options = {
 
   // export const OPENAI_KEY="sk-proj-HTJegCpzBOZ4yonl0QaDT3BlbkFJ6jRmKSHBq1xKpetu3TAI"
 
-  export const OPENAI_KEY="sk-proj-QdCwJQbS8QTLP8766RqbT3BlbkFJ9RR5MtAnd7sC1240uFAO"
+  export const OPENAI_KEY=process.env.REACT_APP_OPENAI_KEY
 
   export const GEM_KEY=process.env.REACT_APP_GEM_KEY
